@@ -2,19 +2,19 @@ Performance measuring of vanilla and momentum gradient descent
 
 w,b,eta,max_epoch = -2,-2,0.01,1000
 
-Cost for vanila gradient descent :  0.4148315145581958
-Time required in seconds :  0.01880192756652832
+Cost for vanila gradient descent : 0.010859067535366746
+Time required in seconds :  0.024930715560913086
 ======================================
-Cost for momentum gradient descent :  0.12551248111403457
-Time required in seconds :  0.01811051368713379
+Cost for momentum gradient descent :  0.003172684635502868
+Time required in seconds :  0.03689694404602051
 ----------------------------------------------------------------
 w,b,eta,max_epoch = -7,-1,0.1,1000
 
-Cost for vanila gradient descent :  0.42217457157675503
-Time required in seconds :  0.017951011657714844
+Cost for vanila gradient descent :  0.017174585650904333
+Time required in seconds :  0.039896488189697266
 ======================================
-Cost for momentum gradient descent :  0.13048466686819032
-Time required in seconds :  0.01994490623474121
+Cost for momentum gradient descent :  0.004735764634059468
+Time required in seconds :  0.04188728332519531
 
 Conclusion : 
 
