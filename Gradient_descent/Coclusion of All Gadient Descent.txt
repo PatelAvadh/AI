@@ -1,0 +1,27 @@
+Performance measuring of vanilla and momentum gradient descent
+
+w,b,eta,max_epoch = 5,5,1,1000
+
+Error of vanila gradient descent : 0.31901558071083863
+Execution Time in seconds : 0.03793740272521973 
+======================================
+Cost for momentum gradient descent :0.3145505926515943
+Execution Time in seconds :   0.032910823822021484
+======================================
+Error of nestrov gradient descent : 0.32386084746146676
+Execution Time in seconds:0.038899898529052734
+----------------------------------------------------------------
+w,b,eta,max_epoch = -2,-2,10,1000
+
+Cost for vanila gradient descent :  1.887411345499491e-32
+Execution Time in seconds :  0.036898136138916016
+======================================
+Cost for momentum gradient descent :  0.0002340853659918371
+Execution Time in secondss :   0.034902095794677734
+======================================
+Error of nestrov gradient descent : 6.548161810916602e-33
+Execution Time in seconds : 0.034902095794677734
+
+Conclusion : 
+
+It can be seen that the momentum gradient descent gives better performance than vanilla gradient descent. and Nestrov gradient descent perform even better than momentum gradient descent.
