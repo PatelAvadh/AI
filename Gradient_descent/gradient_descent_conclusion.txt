@@ -1,16 +1,16 @@
 Problem : Identify the various effects on error while changing the values of bias, weights, learning rate and number of epochs
 
 Number	w	  b	Learning_Rate	Epochs	Error
-1	-1	  -1	1		  1000	5.42E-12
-2	-1	  -1	1		  2500	1.68E-25
-3	-1	  -1	1		  5000	2.50E-30
-4	-1	  -1	0.1		1000	3.56E-05
-5	-1	  -1	0.01	1000	0.019633746
-6	-1	  -1	0.001	1000	0.360328303
-7	-1	  -1	10		1000	2.50E-32
-8	-1	  -1	100		1000	0.016371856
-9	 1	   2	1		  2500	2.80E-25
-10 1	   1	10		2500	2.50E-32
+1	-1	  -1	1		  1000	3.743789070379923e-12
+2	-1	  -1	1		  2500	1.159095549420931e-25
+3	-1	  -1	1		  5000	1.887411345499491e-30
+4	-1	  -1	0.1		1000	0.00096908298954709555
+5	-1	  -1	0.01	1000	0.02744158708863024
+6	-1	  -1	0.001	1000	3.141764526043093e-05
+7	-1	  -1	10		1000	1.887411345499491e-32
+8	-1	  -1	100		1000	0.003740081499427899
+9	 1	   2	1		  2500	1.9302940862337778e-25
+10 1	   1	10		2500	1.887411345499491e-32
 
 From above experiment we can easily observe that the error is descreasing when we increase number of epochs(upto certain limit). 
 
